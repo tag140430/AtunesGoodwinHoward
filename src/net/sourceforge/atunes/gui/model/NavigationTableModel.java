@@ -93,7 +93,7 @@ public class NavigationTableModel implements TableModel {
 			return f.getName();
 		}
 		else
-			return f.getDuration();
+			return f.getDuration(); //Test Edit Here - TAG
 	}
 
 	public boolean isCellEditable(int rowIndex, int columnIndex) {
