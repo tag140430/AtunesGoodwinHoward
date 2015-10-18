@@ -46,6 +46,8 @@ public class PlayListControlsListener implements ActionListener {
 			HandlerProxy.getPlayListHandler().sortPlaylistByAlbum();
 		else if (e.getSource().equals(panel.getSortByGenre()))
 			HandlerProxy.getPlayListHandler().sortPlaylistByGenre();
+		else if (e.getSource().equals(panel.getSortByDuration()))
+			HandlerProxy.getPlayListHandler().sortPlaylistByDuration();
 		else if (e.getSource().equals(panel.getSavePlaylistButton()))
 			HandlerProxy.getPlayListHandler().savePlaylist();
 		else if (e.getSource().equals(panel.getLoadPlaylistButton()))

@@ -49,6 +49,7 @@ public class PlayListControlsPanel extends JPanel {
 	private JMenuItem sortByArtist;
 	private JMenuItem sortByAlbum;
 	private JMenuItem sortByGenre;
+	private JMenuItem sortByDuration;
 	
 	private JButton savePlaylistButton;
 	private JButton loadPlaylistButton;
@@ -278,6 +279,10 @@ public class PlayListControlsPanel extends JPanel {
 
 	public JMenuItem getSortByGenre() {
 		return sortByGenre;
+	}
+	
+	public JMenuItem getSortByDuration() {
+		return sortByDuration;
 	}
 
 	public JCheckBoxMenuItem getShowGenre() {
